@@ -1,3 +1,9 @@
+const Carrito = () => {
+    return(
+        <span class="material-icons">shopping_bag</span>
+    )
+}
+
 const Navbar = () => {
     return (
             <nav id="navbar">
@@ -10,7 +16,7 @@ const Navbar = () => {
                     <a href="#">Carteras y mochilas</a>
                     <a href="#">Zapatos</a>
                     <a href="#">Gift Cards</a>
-                    <a href="#">Carrito</a>
+                    <Carrito />
                 </div>    
             </nav>
     )
