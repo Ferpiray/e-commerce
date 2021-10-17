@@ -1,8 +1,4 @@
-const Carrito = () => {
-    return(
-        <span class="material-icons">shopping_bag</span>
-    )
-}
+import CartWidget from "./CartWidget" ;
 
 const Navbar = () => {
     return (
@@ -16,8 +12,8 @@ const Navbar = () => {
                     <a href="#">Carteras y mochilas</a>
                     <a href="#">Zapatos</a>
                     <a href="#">Gift Cards</a>
-                    <Carrito />
                 </div>    
+                <CartWidget />
             </nav>
     )
 }
