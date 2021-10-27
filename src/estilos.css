@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -9,15 +10,50 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0.5px 1px 10px black;
+}
+#navbar a{
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: rgb(15, 66, 90);
 }
 #navbar-links{
     display: flex;
     align-items: center;
 }
-#navbar-links a{
-    margin: 0 1.5rem;
+#logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+#home{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.5rem;
+    width: 120rem;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(carteras.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#home h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 1px black
+}
+#botonHome{
+    position: absolute;
+    bottom:10px;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 1rem 2rem;
     text-decoration: none;
-    color: rgb(15, 66, 90);
 }
 #footer{
     background-color: #d8adff;

@@ -1,6 +1,8 @@
 const ItemListContainer = () => {
     return(
-        <h2>Productos destacados</h2>
+        <div id="home">
+            <a id="botonHome" href="#">Mirá lo nuevo!</a>
+        </div>
         )
 }
 
